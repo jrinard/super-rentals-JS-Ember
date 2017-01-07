@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about'); // loads the about.hbs template
+  this.route('contact');
 });
 
 export default Router;
