@@ -4,7 +4,7 @@
 
 <ul>
   {{#each model as |rental|}}
-     <li>{{rental.owner}}'s {{rental.type}} in {{rental.city}}</li>
+    {{rental-tile rental=rental}}<!-- left is name used with component and right is from template -->
   {{/each}}
 </ul>
 
